@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Credit Card type detection</title>
+ <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body ng-app="myApp">
+<div class="container container-table">
+  <div class = "row vertical-center-row">
+    <div class="form-group">
+        <h2>Check Credit Card Type</h2>
+      <label>* CARD NUMBER </label><br>
+      <input type="text" ng-model="myccno" style="{{myccno | ccLogo }}" placeholder="Credit Card Number"  class="input-lg" maxlength="19"/>
+      <span class="bar"></span><br>
+    </div>
+    </div>
+</div>
+
+<script src="app/app.js"></script>
+
+</body>
+</html>
