@@ -20,7 +20,6 @@
     "jasmine-core": "^2.5.1",
     "angular-mocks": "1.5.0",
     "karma-chrome-launcher": "^2.0.0",
-    
   },
   "resolutions": {
     "angular": "1.5.0"
